@@ -1,2 +1,3 @@
 # idgaf
-It's fun to press this button and hear this sound. http://itsmeara.com/idgaf/
+Go here: http://itsmeara.com/idgaf/  
+Press the button. Enjoy not giving a fuck. 
