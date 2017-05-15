@@ -1,7 +1,7 @@
 $(function() {
     var idgafBtn = $('a.idgafBtn');
 
-    $(document).on('click', '.idgafBtn', function ( event ) {
+    idgafBtn.on('click', function ( event ) {
         event.preventDefault();
         document.getElementById('idgafAudio').play();
     });
