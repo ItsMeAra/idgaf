@@ -1,7 +1,8 @@
 $(function() {
-    var audio = document.getElementById('idgafBtn');
+    
    
     function playSound() {
+        var audio = document.getElementById('idgafAudio');
         if (audio.paused) {
             audio.play();
         }else{
