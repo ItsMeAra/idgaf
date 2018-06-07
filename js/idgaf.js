@@ -1,7 +1,7 @@
 $(function() {
     var audio = document.getElementById('idgafBtn');
    
-    function play() {
+    function playSound() {
         if (audio.paused) {
             audio.play();
         }else{
@@ -9,7 +9,7 @@ $(function() {
         }
     }
     
-    idgafBtn.on('click', function () {
-        play();
+    $('.js-idgafBtn').on('click', function () {
+        playSound();
     });
 });
