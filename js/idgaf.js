@@ -1,8 +1,15 @@
 $(function() {
-    var idgafBtn = $('a.idgafBtn');
-
-    idgafBtn.on('click', function ( event ) {
-        event.preventDefault();
-        document.getElementById('idgafAudio').play();
+    var audio = document.getElementById('idgafBtn');
+   
+    function play() {
+        if (audio.paused) {
+            audio.play();
+        }else{
+            audio.currentTime = 0
+        }
+    }
+    
+    idgafBtn.on('click', function () {
+        play();
     });
 });
