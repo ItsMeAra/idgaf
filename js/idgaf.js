@@ -8,7 +8,8 @@ $(function() {
         }
     }
     
-    $('.js-idgafBtn').on('click', function () {
+    $('.js-idgafBtn').on('click', function ( e ) {
+        e.preventDefault();
         playSound();
     });
 });
